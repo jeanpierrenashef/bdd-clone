@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'TheMixBlack-Caps';
+    src: url('../fonts/TheMixBlack-Caps.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TheMixSemiBold-Plain';
+    src: url('../fonts/TheMixSemiBold-Plain.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+.build-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background-image: url('../icons/parallax-light.jpg'); 
+    background-size: cover;         
+    background-position: center;    
+    background-repeat: no-repeat;   
+    color: white;
+    text-align: center;
+
+}
+.icons-align{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 60px;
+}
+.icon-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 60px;
+}
+.build-align > p {
+    color: #212121;
+    font-family: "TheMixBlack-Caps", Sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 0px;
+
+}
+.icon-text > p{
+    color: #333333;
+    font-family: "TheMixBlack-Caps", Sans-serif;
+    font-size: 15.2px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+.icon-text > div {
+    color: #21212100;
+    font-family: "TheMixBlack-Caps", Sans-serif;
+    font-size: 35.1px;
+    font-weight: 400;
+    -webkit-text-stroke-width: 2px;
+    stroke-width: 2px;
+    
+}
+.home-com{
+    -webkit-text-stroke-color: #009A9E;
+    stroke: #009A9E;
+}
+.home-eve{
+    -webkit-text-stroke-color: #E13870;
+    stroke: #E13870;
+}
+.home-sup{
+    -webkit-text-stroke-color: #0078BE;
+    stroke: #0078BE;
+}
+.home-vc{
+    -webkit-text-stroke-color: #00802D;
+    stroke: #00802D;
+}
