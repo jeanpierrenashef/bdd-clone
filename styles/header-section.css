@@ -1,8 +1,17 @@
+@font-face {
+    font-family: 'TheMixBlack-Caps';
+    src: url('../fonts/TheMixBlack-Caps.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 * {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
+}
+body{
+    color: #94a3b8
 }
 .main-header{
     display: flex;
