@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'TheMixBlack-Caps';
+    src: url('../fonts/TheMixBlack-Caps.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TheMixSemiBold-Plain';
+    src: url('../fonts/TheMixSemiBold-Plain.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TheMixBlack-Plain';
+    src: url('../fonts/TheMixBlack-Plain.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+.apps-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: #f3f3f3
+}
+.apps-sec > p {
+    text-align: center;
+    color: #646464;
+    font-family: "TheMixBlack-Plain", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 0 20px;
+}
+.img1-allign, .img2-allign {
+    display: flex;
+    justify-content: end;
+    width: auto;
+    padding-left: 45px; 
+}
+.img2-allign {
+    display: flex;
+    justify-content: start;
+    width: auto;
+    padding-right: 45px; 
+}
+
